@@ -1,75 +1,120 @@
-<div class="main">
+<div class="main ui container">
 	
 	<div class="new-list">
-		<h2>最新の動画</h2>
-		
-		<div class="box">
-			<div class="thumbnail">
-        <%= link_to image_tag("default-thumbnail.png"), "/posts/show" %>
-			</div>
-			<div class="user-img">
-				<img src="" alt="user">
-			</div>
-			<h3>タイトル</h3>
-			<h4>ユーザー名</h4>
-			<p>なんかなんかなんか</p>
-		</div>
+		<h2 class="ui dividing header">最新の動画</h2>
 
-		<div class="box">
-			<div class="thumbnail">
+		<div class="ui stackable four column grid">
+			<div class="column">
+				<%= link_to image_tag("/default-thumbnail.png"), "/posts/show" , class:"ui fluid image" %>
+				<h3 class="ui header" style="margin-top: 10px">
+					タイトル
+					<div class="sub header">
+						<div class="ui image circular">
+							<%= link_to image_tag("/users/penguin.png"), "/users/show" , class:"ui image circular mini" %>
+						</div>
+						ユーザー名
+					</div>
+				</h3>
 			</div>
-			<div class="user-img">
-				<img src="" alt="user">
+
+			<div class="column">
+				<%= link_to image_tag("/default-thumbnail.png"), "/posts/show" , class:"ui fluid image" %>
+				<h3 class="ui header" style="margin-top: 10px">
+					タイトル
+					<div class="sub header">
+						<div class="ui image circular">
+							<%= link_to image_tag("/users/penguin.png"), "/users/show" , class:"ui image circular mini" %>
+						</div>
+						ユーザー名
+					</div>
+				</h3>
 			</div>
-			<h3>タイトル</h3>
-			<h4>ユーザー名</h4>
-			<p>なんかなんかなんか</p>
-		</div>
-		<div class="box">
-			<div class="thumbnail">
+			
+			<div class="column">
+				<%= link_to image_tag("/default-thumbnail.png"), "/posts/show" , class:"ui fluid image" %>
+				<h3 class="ui header" style="margin-top: 10px">
+					タイトル
+					<div class="sub header">
+						<div class="ui image circular">
+							<%= link_to image_tag("/users/penguin.png"), "/users/show" , class:"ui image circular mini" %>
+						</div>
+						ユーザー名
+					</div>
+				</h3>
 			</div>
-			<div class="user-img">
-				<img src="" alt="user">
+
+			<div class="column">
+				<%= link_to image_tag("/default-thumbnail.png"), "/posts/show" , class:"ui fluid image" %>
+				<h3 class="ui header" style="margin-top: 10px">
+					タイトル
+					<div class="sub header">
+						<div class="ui image circular">
+							<%= link_to image_tag("/users/penguin.png"), "/users/show" , class:"ui image circular mini" %>
+						</div>
+						ユーザー名
+					</div>
+				</h3>
 			</div>
-			<h3>タイトル</h3>
-			<h4>ユーザー名</h4>
-			<p>なんかなんかなんか</p>
-		</div>
-	</div>
+		
+	</div><!-- New List End -->
 
 	<div class="topic-list">
-		<h2>おすすめ</h2>
+		<h2 class="ui dividing header mt-4">おすすめ</h2>
 		
-		<div class="box">
-			<div class="thumbnail">
+		<div class="ui stackable four column grid">
+			<div class="column">
+				<%= link_to image_tag("/default-thumbnail.png"), "/posts/show" , class:"ui fluid image" %>
+				<h3 class="ui header" style="margin-top: 10px">
+					タイトル
+					<div class="sub header">
+						<div class="ui image circular">
+							<%= link_to image_tag("/users/penguin.png"), "/users/show" , class:"ui image circular mini" %>
+						</div>
+						ユーザー名
+					</div>
+				</h3>
 			</div>
-			<div class="user-img">
-				<img src="" alt="user">
+
+			<div class="column">
+				<%= link_to image_tag("/default-thumbnail.png"), "/posts/show" , class:"ui fluid image" %>
+				<h3 class="ui header" style="margin-top: 10px">
+					タイトル
+					<div class="sub header">
+						<div class="ui image circular">
+							<%= link_to image_tag("/users/penguin.png"), "/users/show" , class:"ui image circular mini" %>
+						</div>
+						ユーザー名
+					</div>
+				</h3>
 			</div>
-			<h3>タイトル</h3>
-			<h4>ユーザー名</h4>
-			<p>なんかなんかなんか</p>
+			
+			<div class="column">
+				<%= link_to image_tag("/default-thumbnail.png"), "/posts/show" , class:"ui fluid image" %>
+				<h3 class="ui header" style="margin-top: 10px">
+					タイトル
+					<div class="sub header">
+						<div class="ui image circular">
+							<%= link_to image_tag("/users/penguin.png"), "/users/show" , class:"ui image circular mini" %>
+						</div>
+						ユーザー名
+					</div>
+				</h3>
+			</div>
+
+			<div class="column">
+				<%= link_to image_tag("/default-thumbnail.png"), "/posts/show" , class:"ui fluid image" %>
+				<h3 class="ui header" style="margin-top: 10px">
+					タイトル
+					<div class="sub header">
+						<div class="ui image circular">
+							<%= link_to image_tag("/users/penguin.png"), "/users/show" , class:"ui image circular mini" %>
+						</div>
+						ユーザー名
+					</div>
+				</h3>
+			</div>
+
 		</div>
 
-		<div class="box">
-			<div class="thumbnail">
-			</div>
-			<div class="user-img">
-				<img src="" alt="user">
-			</div>
-			<h3>タイトル</h3>
-			<h4>ユーザー名</h4>
-			<p>なんかなんかなんか</p>
-		</div>
-		<div class="box">
-			<div class="thumbnail">
-			</div>
-			<div class="user-img">
-				<img src="" alt="user">
-			</div>
-			<h3>タイトル</h3>
-			<h4>ユーザー名</h4>
-			<p>なんかなんかなんか</p>
-		</div>
-	</div>
+	</div><!-- Topic List End -->
 </div>

@@ -1,0 +1,128 @@
+<div class="main ui container">
+	
+	<div class="show">
+    <div class="movie">
+      <img class="ui fluid image massive" src="/demo-movie-image.png">
+    </div>
+
+    <div class="movie-title mt-2">
+      <h1 class="ui header">
+        タイトル
+        <div class="ui right aligned sub header">
+          <div class="meta">
+            <ul>
+              <i class="like icon"></i>100
+              <i class="thumbs down icon"></i>2
+            </ul>
+          </div>
+        </div>
+      </h1>
+    </div>
+    <div class="ui divider"></div>
+
+    <div class="movie-detail">
+      <h3 class="ui header">
+        <div class="ui image circular">
+          <%= link_to image_tag("/users/penguin.png"), "/users/show" , class:"ui image circular" %>
+        </div>
+        ユーザー名
+      </h3>
+      <div class="ui accordion">
+        <div class="title">
+          がいようの一行目<i class="dropdown icon"></i>
+        </div>
+        
+        <div class="content">
+          <p class="transition hidden">がいようがいようがいようがいようがいようがいようがいようがいようがいようがいようがいようがいよう<br>
+          がいようがいようがいようがいようがいようがいようがいようがいようがいようがいようがいようがいようがいよう</p>
+        </div>
+      </div>
+  	</div>
+
+    <h2 class="ui dividing header">コメント</h2>
+    <div class="ui feed">
+
+      <form class="ui form">        
+        <div class="ui fluid action input">
+          <%= link_to image_tag("/users/penguin.png"), "/users/show" , class:"ui mini right spaced image circular" %>
+          <input type="text" placeholder="コメントを書く">
+          <div class="ui button"><i class="paper plane icon"></i></div>
+        </div>
+      </form>
+      <div class="ui divider"></div>
+
+      <div class="event">
+        <div class="label">
+          <%= link_to image_tag("/users/penguin.png"), "/users/show" , class:"circular" %>
+        </div>
+        <div class="content">
+          <div class="summary">
+            <a class="user">
+              Elliot Fu
+            </a>
+            <div class="date">
+              1 Hour Ago
+            </div>
+          </div>
+          <div class="extra text">
+            コメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメント
+          </div>
+          <div class="meta">
+            <a class="like">
+              <i class="like icon"></i> 4 Likes
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="ui divider"></div>
+
+      <div class="event">
+        <div class="label">
+          <%= link_to image_tag("/users/chick.png"), "/users/show" , class:"circular" %>
+        </div>
+        <div class="content">
+          <div class="summary">
+            <a>Helen Troy</a>
+            <div class="date">
+              4 days ago
+            </div>
+          </div>
+          <div class="extra text">
+            コメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメント
+          </div>
+          <div class="meta">
+            <a class="like">
+              <i class="like icon"></i> 1 Like
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="ui divider"></div>
+
+      <div class="event">
+        <div class="label">
+          <%= link_to image_tag("/users/beaver.png"), "/users/show" , class:"circular" %>
+        </div>
+        <div class="content">
+          <div class="summary">
+            <a>Joe Henderson</a>
+            <div class="date">
+              3 days ago
+            </div>
+          </div>
+          <div class="extra text">
+            コメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメントコメント
+          </div>
+          <div class="meta">
+            <a class="like">
+              <i class="like icon"></i> 5 Likes
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui divider"></div>
+      
+  </div>
+</div>
+	

@@ -1,19 +1,47 @@
-<div class="main">
-	
-	<div class="upload">
-		<form class="upload-form">
-			<p>タイトル</p>
-			<input type="text" name="title">
+<div class="main ui container">
 
-			<p>動画ファイル</p>
-			<input type="file" name="movie">
+	<div class="show ui text container">
+		<h2 class="ui header">動画アップロード</h2>
 
-			<p>概要</p>
-			<textarea name="overview"></textarea>
+		<div class="ui segment">		
+			<form class="ui form">
+				<div class="field">
+					<label>タイトル</label>
+					<input type="text" name="title">
+				</div>
 
-			<input type="submit" value="投稿">
-		</form>
+				<div class="field">
+					<label>サムネイルファイル</label>
+					<input type="file" name="thumbnail">
+				</div>
+
+				<div class="field">
+					<label>動画ファイル</label>
+					<input type="file" name="movie">
+				</div>
+
+				<div class="field">
+					<label>概要</label>
+					<textarea name="overview"></textarea>
+				</div>
+
+				<div class="ui field center aligned grid">
+					<div class="row">
+						<div class="column wide">				
+							<div class="ui checkbox">
+								<input type="checkbox" name="example">
+								<label>規約に同意する</label>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="column">
+							<button class="ui button" type="submit">投稿</button>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
 	</div>
 
 </div>
-	

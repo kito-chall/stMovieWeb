@@ -56,3 +56,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # 日本語化対応
 gem 'rb-readline'
 gem 'rails-i18n'
+
+gem 'semantic-ui-sass'

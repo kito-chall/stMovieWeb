@@ -1,0 +1,10 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.user-show h3.ui.header p { margin: 0.5rem 0; }
+@media (max-width: 768px) { 
+  .user-show h3.ui.header p { margin: 0; }
+}
+
+p.text { font-size: 16px; }

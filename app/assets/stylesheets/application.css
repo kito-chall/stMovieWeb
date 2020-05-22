@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+
+body > .pusher {
+  padding: 6em 0;
+}
+
+.ui.top.inverted.menu { background: #00E0C0; color: #fff; }
+.ui.sidebar.inverted.menu { background: #000; color: #fff; }
+img { background: #dedede; }
+
+.mt-2 { margin-top: 2rem !important; }
+.mt-4 { margin-top: 4rem !important; }
+
+
+.ui.menu .is-cp { display: flex !important; }
+.ui.menu .is-mb { display: none !important; }
+@media (max-width: 768px) { 
+  .ui.menu .is-cp { display: none !important; }
+  .ui.menu .is-mb { display: flex !important; }
+}
